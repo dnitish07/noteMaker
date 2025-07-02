@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', monospace;
+  background: linear-gradient(90deg, #a8f0a1, #b3e6f7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-section {
+  text-align: center;
+  margin-top: 30px;
+  color: navy;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px;
+}
+
+.note {
+  width: 200px;
+  min-height: 150px;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+.note:hover {
+  transform: scale(1.02);
+}
+
+.note textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+  background: transparent;
+  color: navy;
+  outline: none;
+  font-size: 1rem;
+}
+
+.add-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  user-select: none;
+}
