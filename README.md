@@ -49,11 +49,7 @@ A sleek, minimal, and modern **Note-Taking App** built using HTML, CSS, and Java
 note-taking-app/
 ├── index.html
 ├── style.css
-├── script.js
-├── README.md
-└── screenshots/
-├── light.png
-└── dark.png
+└── script.js
 ```
 
 ---
