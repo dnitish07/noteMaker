@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: background 0.3s;
 }
 
 .title-section {
@@ -34,6 +35,7 @@ body {
   position: relative;
   cursor: grab;
   transition: transform 0.2s;
+  margin: 5px;
 }
 
 .note:hover {
@@ -60,4 +62,57 @@ body {
   color: rgba(0, 0, 0, 0.4);
   cursor: pointer;
   user-select: none;
+}
+
+.search-bar {
+  margin: 10px 0;
+  text-align: center;
+}
+
+#search-input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 250px;
+  font-size: 1rem;
+}
+
+.color-picker {
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#toggle-theme {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+body.dark {
+  background: linear-gradient(90deg, #1e1e2f, #2e2e3e);
+  color: #eee;
+}
+
+body.dark .note {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+body.dark .note textarea {
+  color: #fff;
+}
+body.dark .title-section {
+  color: #fff;
+}
+
+.color-options {
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
 }
