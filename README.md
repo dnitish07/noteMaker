@@ -6,7 +6,7 @@ A sleek, minimal, and modern **Note-Taking App** built using HTML, CSS, and Java
 
 ## Live Demo
 
-[Click here to view the live app](https://your-live-url-here)
+[Click here to view the live app](https://dnitish07.github.io/noteMaker/)
 
 ---
 
@@ -14,7 +14,7 @@ A sleek, minimal, and modern **Note-Taking App** built using HTML, CSS, and Java
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light](screenshots/light.png) | ![Dark](screenshots/dark.png) |
+| ![Light](screenshots/image.png) | ![Dark](screenshots/dark.png) |
 
 ---
 
