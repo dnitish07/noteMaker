@@ -22,7 +22,7 @@ A sleek, minimal, and modern **Note-Taking App** built using HTML, CSS, and Java
 
 ### Core Functionalities
 - **Create Notes**: Click the "+" button to add a new note.
-- ✏**Edit Notes**: Type directly inside the note, auto-saves to Local Storage.
+- **Edit Notes**: Type directly inside the note, auto-saves to Local Storage.
 - **Delete Notes**: Double-click a note to delete with confirmation.
 - **Persistent Storage**: Notes persist even after refreshing using `localStorage`.
 
